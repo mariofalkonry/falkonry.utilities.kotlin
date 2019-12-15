@@ -1,0 +1,67 @@
+Fichier,Elodie Legrand definition,PLC,VarName,Renommer - ajouter début,Renommer - ajouter fin
+Htc_CTM_Motor_temp,Temperature Moteur Bi-vis 1,Bi-vis 1,DB161 Aux FB198 in FC60_KTY_motor_temperature,BV1--DB161 Aux FB198 in FC60_KTY_motor_temperature,DB161 Aux FB198 in FC60_KTY_motor_temperature--BV1
+Htc_CTM_Oil_Bearings_Temp_Flow,Temperature et débit lubrification paliers Bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_bearings_Flow_Act,BV1--DB40 IFM IO-Link Devices_CTM_Oil_bearings_Flow_Act,DB40 IFM IO-Link Devices_CTM_Oil_bearings_Flow_Act--BV1
+Htc_CTM_Oil_Bearings_Temp_Flow,Temperature et débit lubrification paliers Bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_bearings_Tmp_Act,BV1--DB40 IFM IO-Link Devices_CTM_Oil_bearings_Tmp_Act,DB40 IFM IO-Link Devices_CTM_Oil_bearings_Tmp_Act--BV1
+Htc_CTM_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification réducteur bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Flow_Act,BV1--DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Flow_Act,DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Flow_Act--BV1
+Htc_CTM_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification réducteur bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Tmp_Act,BV1--DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Tmp_Act,DB40 IFM IO-Link Devices_CTM_Oil_gear_box_Tmp_Act--BV1
+Htc_CTM_Oil_Hydraulic_unit_Temp_Press,Pression réseau hydraulique Bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Pressure_ACT,BV1--DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Pressure_ACT,DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Pressure_ACT--BV1
+Htc_CTM_Oil_Hydraulic_unit_Temp_Press,Pression réseau hydraulique Bi-vis 1,Bi-vis 1,DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Tmp_Act,BV1--DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Tmp_Act,DB40 IFM IO-Link Devices_CTM_Oil_hydraulic_unit_Tmp_Act--BV1
+Htc_CTM_Press_Temp,Pression et Temperature mélange Bi-vis 1,Bi-vis 1,DB11 Actual_DATA.CTM_Pressure_material,BV1--DB11 Actual_DATA.CTM_Pressure_material,DB11 Actual_DATA.CTM_Pressure_material--BV1
+Htc_CTM_Press_Temp,Pression et Temperature mélange Bi-vis 1,Bi-vis 1,DB11 Actual_DATA_CTM_Temperature_material,BV1--DB11 Actual_DATA_CTM_Temperature_material,DB11 Actual_DATA_CTM_Temperature_material--BV1
+Htc_CTM_Speed_Current,Vitesse et intensité moteur Bi-Vis 1,Bi-vis 1,DB11 Actual_DATA.CTM_Current,BV1--DB11 Actual_DATA.CTM_Current,DB11 Actual_DATA.CTM_Current--BV1
+Htc_CTM_Speed_Current,Vitesse et intensité moteur Bi-Vis 1,Bi-vis 1,DB11 Actual_DATA.CTM_Speed,BV1--DB11 Actual_DATA.CTM_Speed,DB11 Actual_DATA.CTM_Speed--BV1
+Htc_SKIPPER_1_Net_Weight,Poids net dans le Skip 1,Bi-vis 1,sk1 scale peso netto,BV1--sk1 scale peso netto,sk1 scale peso netto--BV1
+Htc_CTE_Motor_temp,Temperature Moteur Bi-vis 2,Bi-vis 2,DB161 Aux FB198 in FC60_KTY_motor_temperature,BV2--DB161 Aux FB198 in FC60_KTY_motor_temperature,DB161 Aux FB198 in FC60_KTY_motor_temperature--BV2
+Htc_CTE_Oil_Bearings_Temp_Flow,Temperature et débit lubrification paliers Bi-vis 2,Bi-vis 2,DB40 IFM IO-Link Devices_CTE_Oil_bearings_Flow_Act,BV2--DB40 IFM IO-Link Devices_CTE_Oil_bearings_Flow_Act,DB40 IFM IO-Link Devices_CTE_Oil_bearings_Flow_Act--BV2
+Htc_CTE_Oil_Bearings_Temp_Flow,Temperature et débit lubrification paliers Bi-vis 2,Bi-vis 2,DB40 IFM IO-Link Devices_CTE_Oil_bearings_Tmp_Act,BV2--DB40 IFM IO-Link Devices_CTE_Oil_bearings_Tmp_Act,DB40 IFM IO-Link Devices_CTE_Oil_bearings_Tmp_Act--BV2
+Htc_CTE_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification réducteur bi-vis 2 ,Bi-vis 2,DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Flow_Act,BV2--DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Flow_Act,DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Flow_Act--BV2
+Htc_CTE_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification réducteur bi-vis 2 ,Bi-vis 2,DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Tmp_Act,BV2--DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Tmp_Act,DB40 IFM IO-Link Devices_CTE_Oil_gear_box_Tmp_Act--BV2
+Htc_CTE_Oil_Hydraulic_unit_Press,Pression réseau hydraulique Bi-vis 2,Bi-vis 2,DB40 IFM IO-Link Devices_CTE_Oil_hydraulic_unit_Pressure_ACT,BV2--DB40 IFM IO-Link Devices_CTE_Oil_hydraulic_unit_Pressure_ACT,DB40 IFM IO-Link Devices_CTE_Oil_hydraulic_unit_Pressure_ACT--BV2
+Htc_CTE_Speed_Current,Vitesse et intensité moteur Bi-Vis 2,Bi-vis 2,DB11 Actual_CTE_Current,BV2--DB11 Actual_CTE_Current,DB11 Actual_CTE_Current--BV2
+Htc_CTE_Speed_Current,Vitesse et intensité moteur Bi-Vis 2,Bi-vis 2,DB11 Actual_CTE_Speed,BV2--DB11 Actual_CTE_Speed,DB11 Actual_CTE_Speed--BV2
+Htc_GP_Motor_temp,Temperature moteur Pompe à engrenage ,Bi-vis 2,DB163 Aux FB198 in FC61_KTY_motor_temperature,BV2--DB163 Aux FB198 in FC61_KTY_motor_temperature,DB163 Aux FB198 in FC61_KTY_motor_temperature--BV2
+Htc_GP_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification reducteur pompe à engrenage,Bi-vis 2,DB40 IFM IO-Link Devices_GP_Oil_gear_box_Flow_Act,BV2--DB40 IFM IO-Link Devices_GP_Oil_gear_box_Flow_Act,DB40 IFM IO-Link Devices_GP_Oil_gear_box_Flow_Act--BV2
+Htc_GP_Oil_Gear_box_Temp_Flow,Temperature et débit lubrification reducteur pompe à engrenage,Bi-vis 2,DB40 IFM IO-Link Devices_GP_Oil_gear_box_Tmp_Act,BV2--DB40 IFM IO-Link Devices_GP_Oil_gear_box_Tmp_Act,DB40 IFM IO-Link Devices_GP_Oil_gear_box_Tmp_Act--BV2
+Htc_GP_Oil_Hydraulic_unit_Press,Pression réseau hydraulique pompe à engrenage,Bi-vis 2,DB40 IFM IO-Link Devices_GP_Oil_hydraulic_unit_Pressure_ACT,BV2--DB40 IFM IO-Link Devices_GP_Oil_hydraulic_unit_Pressure_ACT,DB40 IFM IO-Link Devices_GP_Oil_hydraulic_unit_Pressure_ACT--BV2
+Htc_GP_Press_Temp_In,Pression et temperature d'entrée dans pompe à engrenage,Bi-vis 2,DB11 Actual_Press_Mat_z_1,BV2--DB11 Actual_Press_Mat_z_1,DB11 Actual_Press_Mat_z_1--BV2
+Htc_GP_Press_Temp_In,Pression et temperature d'entrée dans pompe à engrenage,Bi-vis 2,DB11 Actual_Tmp_Mat_Z_1,BV2--DB11 Actual_Tmp_Mat_Z_1,DB11 Actual_Tmp_Mat_Z_1--BV2
+Htc_GP_Press_Temp_Out,Pression et temperature de sortie de la pompe à engrenage,Bi-vis 2,DB11 Actual_Tmp_Mat_Z_2,BV2--DB11 Actual_Tmp_Mat_Z_2,DB11 Actual_Tmp_Mat_Z_2--BV2
+Htc_GP_Press_Temp_Out,Pression et temperature de sortie de la pompe à engrenage,Bi-vis 2,DB11 Actual_Press_Mat_z_2,BV2--DB11 Actual_Press_Mat_z_2,DB11 Actual_Press_Mat_z_2--BV2
+Htc_GP_Speed_Current,Vitesse et Intensité moteur Pompe à engrenage,Bi-vis 2,DB11 Actual_GP_Current,BV2--DB11 Actual_GP_Current,DB11 Actual_GP_Current--BV2
+Htc_GP_Speed_Current,Vitesse et Intensité moteur Pompe à engrenage,Bi-vis 2,DB11 Actual_GP_Speed_Production,BV2--DB11 Actual_GP_Speed_Production,DB11 Actual_GP_Speed_Production--BV2
+Htc_Thermoregulation,Groupe de thermo régulation,Bi-vis 2,DB11 Actual_Tmp_zone_1,BV2--DB11 Actual_Tmp_zone_1,DB11 Actual_Tmp_zone_1--BV2
+Htc_Thermoregulation,Groupe de thermo régulation,Bi-vis 2,DB11 Actual_Tmp_zone_2,BV2--DB11 Actual_Tmp_zone_2,DB11 Actual_Tmp_zone_2--BV2
+Htc_Thermoregulation,Groupe de thermo régulation,Bi-vis 2,DB11 Actual_Tmp_zone_3,BV2--DB11 Actual_Tmp_zone_3,DB11 Actual_Tmp_zone_3--BV2
+Htc_Thermoregulation,Groupe de thermo régulation,Bi-vis 2,DB11 Actual_Tmp_zone_4,BV2--DB11 Actual_Tmp_zone_4,DB11 Actual_Tmp_zone_4--BV2
+Htc_Cooling_unit_Inlet_Roller_Speed,Vitesse des rouleaux d'entrée du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Inlet_Roller_Speed,ET--DB11 Actual_Inlet_Roller_Speed,DB11 Actual_Inlet_Roller_Speed--ET
+Htc_Cooling_unit_Inlet_Scale_Net_Weight,Poids net de la balance d'entrée tunnel de refroidissement.,Ext/tunnel,DB11 Actual_Scale_1_Net_Weight,ET--DB11 Actual_Scale_1_Net_Weight,DB11 Actual_Scale_1_Net_Weight--ET
+Htc_Cooling_unit_Inlet_Weighing_Belt_Speed,Vitesse du tapis de balance d'entrée tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Weighing_Belt_1_Speed,ET--DB11 Actual_Weighing_Belt_1_Speed,DB11 Actual_Weighing_Belt_1_Speed--ET
+Htc_Cooling_unit_outlet_Scale2_Net_Weight,Poids Net sur la balance sortie tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Scale_2_Net_Weight,ET--DB11 Actual_Scale_2_Net_Weight,DB11 Actual_Scale_2_Net_Weight--ET
+Htc_Cooling_unit_Rollers_Speed,Vitesse du convoyeur à rouleau tunnel de refroidissement,Ext/tunnel,DB11 Actual_Cooling_Roller_1_Speed,ET--DB11 Actual_Cooling_Roller_1_Speed,DB11 Actual_Cooling_Roller_1_Speed--ET
+Htc_Cooling_unit_Rollers_Speed,Vitesse du convoyeur à rouleau tunnel de refroidissement,Ext/tunnel,DB11 Actual_Cooling_Roller_2_Speed,ET--DB11 Actual_Cooling_Roller_2_Speed,DB11 Actual_Cooling_Roller_2_Speed--ET
+Htc_Cooling_unit_Rollers_Speed,Vitesse du convoyeur à rouleau tunnel de refroidissement,Ext/tunnel,DB11 Actual_Cooling_Roller_3_Speed,ET--DB11 Actual_Cooling_Roller_3_Speed,DB11 Actual_Cooling_Roller_3_Speed--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_1_Inlet_Temperature,ET--DB11 Actual_Cooling_1_Inlet_Temperature,DB11 Actual_Cooling_1_Inlet_Temperature--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_1_Outlet_Temperature,ET--DB11 Actual_Cooling_1_Outlet_Temperature,DB11 Actual_Cooling_1_Outlet_Temperature--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_2_Inlet_Temperature,ET--DB11 Actual_Cooling_2_Inlet_Temperature,DB11 Actual_Cooling_2_Inlet_Temperature--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_2_Outlet_Temperature,ET--DB11 Actual_Cooling_2_Outlet_Temperature,DB11 Actual_Cooling_2_Outlet_Temperature--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_3_Inlet_Temperature,ET--DB11 Actual_Cooling_3_Inlet_Temperature,DB11 Actual_Cooling_3_Inlet_Temperature--ET
+Htc_Cooling_unit_Temperature,Temperature du tunnel de refroidissement. ,Ext/tunnel,DB11 Actual_Cooling_3_Outlet_Temperature,ET--DB11 Actual_Cooling_3_Outlet_Temperature,DB11 Actual_Cooling_3_Outlet_Temperature--ET
+Htc_Cut_unit_Outlet_Weighing_Belt_Speed,Vitesse tapis peseur sortie du tunnel de refroidissement,Ext/tunnel,DB11 Actual_Weighing_Belt_2_Speed,ET--DB11 Actual_Weighing_Belt_2_Speed,DB11 Actual_Weighing_Belt_2_Speed--ET
+Htc_Cut_unit_Speed,Vitesse du couteau de découpe ébauche ,Ext/tunnel,DB11 Actual_Cutting_Blade_Speed,ET--DB11 Actual_Cutting_Blade_Speed,DB11 Actual_Cutting_Blade_Speed--ET
+Htc_Cut_unit_Speed,Vitesse du couteau de découpe ébauche ,Ext/tunnel,DB11 Actual_Cutting_Inlet_Belt_Speed,ET--DB11 Actual_Cutting_Inlet_Belt_Speed,DB11 Actual_Cutting_Inlet_Belt_Speed--ET
+Htc_Cut_unit_Speed,Vitesse du couteau de découpe ébauche ,Ext/tunnel,DB11 Actual_Cutting_Outlet_Belt_Speed,ET--DB11 Actual_Cutting_Outlet_Belt_Speed,DB11 Actual_Cutting_Outlet_Belt_Speed--ET
+Htc_Extruder_Belt_1_Speed,Vitesse tapis buffer alimentation extrudeuse (1),Ext/tunnel,DB11 Actual_Belt_1_Speed,ET--DB11 Actual_Belt_1_Speed,DB11 Actual_Belt_1_Speed--ET
+Htc_Extruder_Belt_2_Speed,Vitesse tapis buffer alimentation extrudeuse (2),Ext/tunnel,DB11 Actual_Belt_2_Speed,ET--DB11 Actual_Belt_2_Speed,DB11 Actual_Belt_2_Speed--ET
+Htc_Extruder_Motor_temp,Temperature Moteur Extrudeuse,Ext/tunnel,DB161 Aux FB198 in FC60_KTY_motor_temperature,ET--DB161 Aux FB198 in FC60_KTY_motor_temperature,DB161 Aux FB198 in FC60_KTY_motor_temperature--ET
+Htc_Extruder_Oil_Gear_box_Temp_Flow,Temperature et débit lubrication réducteur Extrudeuse,Ext/tunnel,DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Flow_Act,ET--DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Flow_Act,DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Flow_Act--ET
+Htc_Extruder_Oil_Gear_box_Temp_Flow,Temperature et débit lubrication réducteur Extrudeuse,Ext/tunnel,DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Tmp_Act,ET--DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Tmp_Act,DB40 IFM IO-Link Devices_EXTRUDER_Oil_gear_box_Tmp_Act--ET
+Htc_Extruder_PressTemp,Temperature et pression du mélange dans l'extrudeuse,Ext/tunnel,DB11 Actual_Pressure_material,ET--DB11 Actual_Pressure_material,DB11 Actual_Pressure_material--ET
+Htc_Extruder_PressTemp,Temperature et pression du mélange dans l'extrudeuse,Ext/tunnel,DB11 Actual_Temperature_material,ET--DB11 Actual_Temperature_material,DB11 Actual_Temperature_material--ET
+Htc_Extruder_SpeedCurrent,Vitesse et Intensité moteur extrudeuse,Ext/tunnel,DB11 Actual_Extruder_Current,ET--DB11 Actual_Extruder_Current,DB11 Actual_Extruder_Current--ET
+Htc_Extruder_SpeedCurrent,Vitesse et Intensité moteur extrudeuse,Ext/tunnel,DB11 Actual_Extruder_Speed,ET--DB11 Actual_Extruder_Speed,DB11 Actual_Extruder_Speed--ET
+Htc_Extruder_Tmp_Therm,Temperature thermorégulateur Extrudeuse,Ext/tunnel,DB11 Actual_Temp_Zone_1,ET--DB11 Actual_Temp_Zone_1,DB11 Actual_Temp_Zone_1--ET
+Htc_Extruder_Tmp_Therm,Temperature thermorégulateur Extrudeuse,Ext/tunnel,DB11 Actual_Temp_Zone_2,ET--DB11 Actual_Temp_Zone_2,DB11 Actual_Temp_Zone_2--ET
+Htc_Extruder_Tmp_Therm,Temperature thermorégulateur Extrudeuse,Ext/tunnel,DB11 Actual_Temp_Zone_3,ET--DB11 Actual_Temp_Zone_3,DB11 Actual_Temp_Zone_3--ET
+Htc_Extruder_Tmp_Therm,Temperature thermorégulateur Extrudeuse,Ext/tunnel,DB11 Actual_Temp_Zone_4,ET--DB11 Actual_Temp_Zone_4,DB11 Actual_Temp_Zone_4--ET
+Htc_Extruder_Tmp_Therm,Temperature thermorégulateur Extrudeuse,Ext/tunnel,DB11 Actual_Temp_Zone_5,ET--DB11 Actual_Temp_Zone_5,DB11 Actual_Temp_Zone_5--ET
+Htc_Packaging_Vacuum_Value,Valeur de vide préhenseur Packaging,Ext/tunnel,DB40 IFM IO-Link Devices_General_Vacuum_Pressure_ACT,ET--DB40 IFM IO-Link Devices_General_Vacuum_Pressure_ACT,DB40 IFM IO-Link Devices_General_Vacuum_Pressure_ACT--ET

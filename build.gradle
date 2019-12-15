@@ -1,0 +1,80 @@
+plugins {
+//    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.50'
+}
+
+version '1.0-SNAPSHOT'
+
+//sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.2.0'
+    // Compile to include all dependencies??
+    compile "org.jetbrains.kotlin:kotlin-reflect"
+//    compile 'com.github.holgerbrandl:krangl:-SNAPSHOT'
+    //Apache Spark
+    compile 'org.apache.spark:spark-core_2.12:2.4.3'
+    //Apache Spark SQL
+    compile 'org.apache.spark:spark-sql_2.12:2.4.3'
+    compile fileTree(dir: 'C:/Users/m2bre/Documents/Code/java/TimeSeries/out/artifacts/TimeSeries_jar', include: '*.jar')
+    // Clickt
+    compile 'com.github.ajalt:clikt:2.2.0'
+    // Kotlin jvm lib needed in jar file
+    compile 'org.jetbrains.kotlin:kotlin-stdlib:1.3.50'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+
+task copyAptarMap(type: Copy){
+    from "C:/Users/m2bre/Documents/Code/Koltlin/falkonryutilities.project/src/main/resources/COLMECvars.csv"
+    into "$buildDir/classes/kotlin/main"
+}
+
+task copyAptarMapJar(type: Copy){
+    from "C:/Users/m2bre/Documents/Code/Koltlin/falkonryutilities.project/src/main/resources/COLMECvars.csv"
+    into "$buildDir/libs"
+}
+
+//applicationName='AptarColmec'
+/*
+application {
+    mainClassName='com.falkonry.aptar.AptarColmecCliKt'
+}
+*/
+jar {
+    manifest {
+        attributes('Main-Class': 'com.falkonry.aptar.AptarColmecCliKt'
+        //        ,'Class-Path': 'AptarColmec-1.0-SNAPSHOT.jar'
+        )
+    }
+    // Change the name
+    archiveBaseName = 'AptarColmec'
+
+    // Add compile dependencies to jar - exclude signed stuff that may cause Jar not to execute
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+            {
+                exclude 'META-INF/*.MF'
+                exclude 'META-INF/*.SF'
+                exclude 'META-INF/*.DSA'
+                exclude 'META-INF/*.RSA'
+            }
+
+}
+
+test {
+    useJUnitPlatform()
+}
