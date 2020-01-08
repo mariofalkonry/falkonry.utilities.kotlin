@@ -1,6 +1,6 @@
 package com.falkonry.data.utils
 
-import com.falkonry.data.SupportedType
+import com.b2rt.data.SupportedType
 import kotlin.reflect.KType
 import kotlin.reflect.full.createType
 import kotlin.reflect.jvm.jvmErasure

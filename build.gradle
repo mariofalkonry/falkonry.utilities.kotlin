@@ -23,7 +23,7 @@ dependencies {
     compile 'org.apache.spark:spark-core_2.12:2.4.3'
     //Apache Spark SQL
     compile 'org.apache.spark:spark-sql_2.12:2.4.3'
-    compile fileTree(dir: 'C:/Users/m2bre/Documents/Code/java/TimeSeries/out/artifacts/TimeSeries_jar', include: '*.jar')
+    compile fileTree(dir: '/Users/blackie/Documents/code/java/TimeSeries/out/artifacts/TimeSeries_jar', include: '*.jar')
     // Clickt
     compile 'com.github.ajalt:clikt:2.2.0'
     // Kotlin jvm lib needed in jar file

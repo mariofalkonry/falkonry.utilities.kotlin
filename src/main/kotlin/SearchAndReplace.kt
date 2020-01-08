@@ -2,10 +2,10 @@ import java.io.File
 import java.nio.file.Paths
 
 fun main(args: Array<String>) {
-    var search= arrayOf("000000","Comp-A")
-    var replace= arrayOf("","C021A")
-    var rootDir="C:\\Users\\m2bre\\Documents\\Falkonry\\Demos\\Source"
-    var outDir="C:\\Users\\m2bre\\Documents\\Falkonry\\Demos\\Cleaned"
+    var search= arrayOf("[Europe/Paris]")
+    var replace= arrayOf("")
+    var rootDir="/Users/blackie/Documents/Projects/Falkonry/Aptar/November2019/ext_tunnel"
+    var outDir="/Users/blackie/Documents/Projects/Falkonry/Aptar/November2019/ext_tunnel_cleaned"
 
     // Delete output from previous time
     if(!File(outDir).exists())

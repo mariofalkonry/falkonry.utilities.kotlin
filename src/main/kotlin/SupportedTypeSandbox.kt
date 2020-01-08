@@ -1,4 +1,4 @@
-import com.falkonry.data.SupportedType
+import com.b2rt.data.SupportedType
 
 fun main(args: Array<String>) {
     var v1:SupportedType<Double> = SupportedType(0.0)

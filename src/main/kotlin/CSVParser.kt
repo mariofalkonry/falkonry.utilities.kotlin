@@ -1,6 +1,6 @@
 package com.falkonry.data.utils
 
-import com.falkonry.data.SupportedType
+import com.b2rt.data.SupportedType
 import java.io.File
 import java.time.Instant
 import java.time.ZoneId

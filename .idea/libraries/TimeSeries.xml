@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TimeSeries">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../TimeSeries/out/artifacts/TimeSeries_jar/TimeSeries.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

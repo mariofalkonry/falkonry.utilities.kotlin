@@ -68,7 +68,7 @@ fun saveStats(entity:String, file:String, sigStats:MutableMap<String,SignalStats
                 // Check it crashing start time
                 var exist: SignalStats? = signalStats[start]
                 if (exist != null)
-                    throw(UnsupportedOperationException("Entity $entity, signal $signal already has a record for start time ${start.toString()}"))
+                    throw(UnsupportedOperationException("Entity $entity, signal $signal already has a record for start time ${start.toString()}") as Throwable)
                 // Don't have that start time
                 signalStats.put(start, timeStats)
             }
